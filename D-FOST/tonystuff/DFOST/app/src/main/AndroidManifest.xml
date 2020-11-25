@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.dfost">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true"
+        tools:ignore="AllowBackup"
+        tools:targetApi="m">
+        <activity android:name=".Activities.MyArticlesDisplay"></activity>
+        <activity android:name=".Activities.MyArticles" />
+        <activity android:name=".Activities.PaymentConfirmation" />
+        <activity android:name=".Activities.CreateDocument" />
+        <activity
+            android:name=".Activities.DisplayListPage"
+            android:parentActivityName=".Activities.SearchPage" />
+        <activity
+            android:name=".Activities.AccountPage"
+            android:parentActivityName=".Activities.SearchPage" />
+        <activity
+            android:name=".Activities.SignUp"
+            android:parentActivityName=".Activities.HomePage" />
+        <activity
+            android:name=".Activities.DisplayPage"
+            android:parentActivityName=".Activities.SearchPage" />
+        <activity
+            android:name=".Activities.LoadQueryPage"
+            android:parentActivityName=".Activities.SearchPage" />
+        <activity android:name=".Activities.HomePage">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Activities.SearchPage"
+            android:parentActivityName=".Activities.HomePage" />
+    </application>
+
+</manifest>

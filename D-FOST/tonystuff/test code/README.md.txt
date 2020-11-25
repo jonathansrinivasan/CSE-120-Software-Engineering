@@ -1,0 +1,1 @@
+just test stuff, isolated in a java class file before I implement it in the Android Studio pages 

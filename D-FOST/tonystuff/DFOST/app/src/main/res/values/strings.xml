@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">DFOST</string>
+    <!--home_page strings-->
+    <string name="login_space">Username</string>
+    <string name="login_hint">Enter your Username</string>
+    <string name="password_space">Password</string>
+    <string name="password_hint">Enter your Password</string>
+    <string name="login_button">Login</string>
+    <string name="create_account">Create Account</string>
+    <string name="login_image_description">Login Image</string>
+    <!--activity_search_page strings-->
+    <string name="user_picture_button_message">Go to User Profile</string>
+    <string name="search_button">Search</string>
+    <string name="search_button_contentDescription">Search Button</string>
+    <string name="location_text_view">Location Information goes here</string>
+    <string name="location_text_view_contentDescription">Location Information goes here</string>
+    <string name="from_text">From:</string>
+    <string name="to_text">To:</string>
+    <!--activity_load_query_page strings-->
+    <string name="load_query_debug_info">Temporary Debug Info</string>
+    <string name="load_query_debug_info_contentDescription">Temporary Debug Info Content Description</string>
+    <!--activity_main strings-->
+    <string name="edit_message">Enter a message</string>
+    <string name="button_send">Send</string>
+    <string name="button_get_location">Get Location</string>
+    <string name="location_coordinates">Location Coordinates</string>
+    <string name="search_box_hint">Input question here</string>
+    <string name="climate_tag">Climate Tag</string>
+    <!--activity_display_message strings-->
+    <string name="message_view">This is the message you entered</string>
+    <!--activity_account_page-->
+    <string name="paid_articles_button">Paid Articles</string>
+    <string name="my_articles_button">My Articles</string>
+    <string name="user_picture">User Profile Picture</string>
+    <string name="user_name">Username</string>
+    <string name="create_doc_button">Create Document</string>
+    <string name="back_to_search_button">Back to Search Page</string>
+    <string name="log_out_button">Log Out</string>
+    <!--activity_display_list_page-->
+    <string name="display_title_text"> Here\'s what we found...</string>
+    <string name="back_to_search">Back to Search Page</string>
+    <!--item_layout-->
+    <string name="doc_title">Insert Document Title Here</string>
+    <string name="date_string">Insert Date Here</string>
+    <string name="author_string">Insert Author Here</string>
+    <string name="no_data"> No documents found!</string>
+    <!--activity_display_page-->
+    <string name="Keywords_string">Insert Keywords Here</string>
+    <string name="back_to_list">Back to List</string>
+    <!--display_layout-->
+    <string name="section_title">Insert Section Title Here</string>
+    <string name="document_text">Document Text Goes Here</string>
+    <!--activity_create_document-->
+    <string name="send_doc">Send Document</string>
+    <string name="add_section">Add Section</string>
+    <string name="no_sections">No Sections. Add One!</string>
+    <string name="delete_section">Delete Section</string>
+    <string name="insert_keywords">Insert Keywords Here</string>
+    <string name="back_to_account_page">Back to Account</string>
+    <!--hidden_section_layout-->
+    <string name="hidden_section">You do not have access to this section. Click on me to request access!</string>
+    <!--activity_payment_confirmation-->
+    <string name="payment_info">Insert Payment Stuff Here</string>
+    <string name="send_request">Send Request</string>
+    <!--activity_my_articles-->
+    <string name="my_articles">Here are your Articles...</string>
+    <!--activity_my_articles-->
+</resources>

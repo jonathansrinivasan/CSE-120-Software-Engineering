@@ -1,0 +1,31 @@
+{
+  "user_name": "admin",
+  "password": "admin",
+  "created_documents": ["1200", "3600", "5614"],
+  "viewable_documents": [{id: "1200", section : ["0", "1", "2", "3"]}, {id: "21293", section: ["1", "4"]}]
+}
+
+{
+  {
+    "id": "asdjasdjasljasdqweh",
+    "keywords": ["yield", "water"],
+    "title": "Article",
+    "doc_id": 1200,
+    "date": "year-month-day",
+    "climate_tag": "Af"
+  }
+  {
+    "section": 01,
+    "content": "lorem ipsum"
+  }
+  {
+    "section": 02,
+    "content": "lorem ipsum"
+  }
+
+  ... etc ...
+  {
+    "section": n,
+    "content": "lorem ipsum"
+  }
+}

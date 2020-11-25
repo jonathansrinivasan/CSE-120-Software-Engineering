@@ -1,0 +1,14 @@
+{"_id":{"$oid":"5ea52c1697c5eeeba4050ccc"},
+"header":{
+  "id":12313,
+  "title":"My Article",
+  "user_id":412452,
+  "keywords":["profit","yield"],
+  "location":{
+    "latitude":71.25,
+    "longitude":-179.75,
+    "climate_tag":"Csb"},
+    "date":{
+      "$date":"2020-04-25T07:00:00Z"}
+    },
+"sections":[{"section_title":"Section 1","section_content":"lorem ipsum"},{"section_title":"Section 2","section_content":"superman"}]}

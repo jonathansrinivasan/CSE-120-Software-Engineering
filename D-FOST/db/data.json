@@ -1,0 +1,26 @@
+[
+    {
+        "header":{
+            "id":"1357841",
+            "title": "My article-Keerthana",
+            "username": "kee",
+            "keywords": ["profit"],
+            "location":{
+                "latitude": "71.25",
+                "longitude": "-179.25",
+                "climate_tag": "Csb"
+            },
+            "date": "2005-01-11T08:00:00.000+00:00"
+        },
+        "sections":[
+            {
+                "section_title": "Section 1",
+                "section_id": "0"
+            },
+            {
+                "section_title": "Section 2",
+                "section_id": "1"
+            }
+        ]
+    }
+]
